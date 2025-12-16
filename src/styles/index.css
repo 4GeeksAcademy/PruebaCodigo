@@ -1,11 +1,38 @@
-/* 
+.semaforo {
+    width: 200px;
+    height: 450px;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.rojo,
+.verde,
+.amarillo {
+    width: 70%;
+    height: 33%;
+    border-radius: 50%;
+    margin: 10px 0;
 
-*/
+}
+
+.rojo {
+    background-color: red;
+}
+
+.amarillo {
+    background-color: yellow;
+}
+
+.verde {
+    background-color: green;
+}
+
+.activado {
+    z-index: 10;
+    box-shadow: -1px 4px 20px 47px rgba(253, 223, 91, 0.72);
+    -webkit-box-shadow: -1px 4px 20px 47px rgba(253, 223, 91, 0.72);
+    -moz-box-shadow: -1px 4px 20px 47px rgba(253, 223, 91, 0.72);
+}
+
+.poster {
+    width: 30px;
+    height: 70px;
+}
